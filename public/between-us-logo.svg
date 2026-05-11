@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heartGradient" x1="16" y1="20" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15b8c5" />
+      <stop offset="0.5" stop-color="#4f46e5" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="104" height="104" rx="32" fill="white"/>
+  <g filter="url(#shadow)">
+    <path
+      d="M64 98C62.7 98 61.4 97.6 60.4 96.8L37.8 78.2C29.2 71.2 26.6 59.1 31.8 49.4C34.6 44.2 39.6 40.7 45.3 40.1C51.4 39.4 57 41.7 60.6 46.3L64 50.7L67.4 46.3C71 41.7 76.6 39.4 82.7 40.1C88.4 40.7 93.4 44.2 96.2 49.4C101.4 59.1 98.8 71.2 90.2 78.2L67.6 96.8C66.6 97.6 65.3 98 64 98Z"
+      fill="url(#heartGradient)"
+    />
+  </g>
+  <circle cx="44" cy="40" r="6" fill="#0f172a" fill-opacity="0.16" />
+  <circle cx="84" cy="40" r="6" fill="#0f172a" fill-opacity="0.16" />
+</svg>
+

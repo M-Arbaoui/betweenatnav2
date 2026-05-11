@@ -1,0 +1,1 @@
+ALTER TABLE public.game_rooms ADD COLUMN game_mode text NOT NULL DEFAULT 'DarkHumor';
